@@ -1,0 +1,4 @@
+tcpdump: listening on ingress, link-type RAW (Raw IP), snapshot length 66 bytes
+241325 packets captured
+242607 packets received by filter
+0 packets dropped by kernel
