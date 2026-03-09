@@ -1,0 +1,11 @@
+# mergecap.pcap 标签说明
+# 本文件由 merge_inner_pcap.sh 生成
+#
+# Packet 顺序（mergecap -a 拼接，不按时间戳交错）:
+#   1. 1_no_PEP_withCCAlg                     (packet 1 - 146745)
+#   2. 2_PEP_AckSpoofing_without_reconfiguration  (packet 146746 - 293745)
+#   3. 3_PEP_AckSpoofing_reconfiguration      (packet 293746 - 447354)
+#
+1_no_PEP_withCCAlg:                    146745 packets
+2_PEP_AckSpoofing_without_reconfig:    147000 packets
+3_PEP_AckSpoofing_reconfiguration:     153609 packets
